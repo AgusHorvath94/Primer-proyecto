@@ -111,7 +111,7 @@ span {
 
 .who>img { 
     
-    width: 80%;
+    width: 70%;
     border-radius: 10%;
 
 }
@@ -137,7 +137,7 @@ span {
 }
 
 .why img {
-    width: 80%;
+    width: 70%;
     border-radius: 10%;
 
 }
@@ -160,9 +160,7 @@ span {
 
 }
 
-#quienes img{
-    width: 40px;
-}
+
 
 #por {
     display: flex;
@@ -193,6 +191,7 @@ span {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
+    
    
   
 }
@@ -203,6 +202,7 @@ span {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
+ 
     
 }
 
@@ -235,8 +235,11 @@ span {
 
 .contenedor-pro p {
     font-family: Poppins, sans-serif;
-    font-size:10px ;
+    font-size: 13px ;
+    font-weight:550;
     text-align: center;
+    
+
 }
 
 #prop  {
@@ -344,12 +347,13 @@ span {
 }
 
 
-footer  {
+.derechos  {
     text-align: center;
     background-color: var(--color-1);
     font-family: Poppins, sans-serif;
     font-weight: bold;
-    font-size: 8px;
+    font-size: 11px;
+   
     
    
 }
@@ -361,6 +365,10 @@ iframe {
     width: 0%;
 }
 
+#ubi {
+    visibility: hidden;
+}
+  
 
 
 @media (min-width: 460px) {
@@ -506,6 +514,7 @@ h3 {
     width: 20px;
 }
 
+
 iframe {
     visibility : hidden;
   
@@ -644,6 +653,11 @@ iframe {
     
  
  
+}
+
+
+#ubi {
+    visibility: visible;
 }
 
 
