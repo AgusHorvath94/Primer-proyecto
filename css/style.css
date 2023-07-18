@@ -25,7 +25,6 @@
 
 html {
     width: 460px;
-
 }
 
 
@@ -55,7 +54,7 @@ nav>ul {
     gap: 1rem;
     list-style: none;
     justify-content: space-between;
-    font-size: 10px;
+    font-size: 11px;
     
     
 }
@@ -65,7 +64,7 @@ nav>ul {
 .title {
 
     width: 460px;
-    height: 160px;
+    height: 200px;
     background-image: url(../img/back-main.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -82,8 +81,9 @@ nav>ul {
 display: flex;
 justify-content: flex-end;
 position: relative;
-top: 8.50rem;
+top: 10.5rem;
 right: 0.50rem;
+font-size: 1.75rem;
 
 
 
@@ -101,7 +101,6 @@ h3 {  font-family: Poppins,sans-serif;
     height: 15%;
     font-family: Poppins,sans-serif;
     text-align: center;
-    font-size: 1rem;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -123,7 +122,7 @@ span {
 }
 
 .who>p { font-family: Poppins,sans-serif;
-    font-size: 0.55rem ;
+    font-size: 0.8rem ;
     margin: 9%;
 
 }
@@ -132,7 +131,6 @@ span {
     height: 14%;
     font-family: Poppins,sans-serif;
     text-align: center;
-    font-size: 1.5rem;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -151,7 +149,7 @@ span {
 .why>p { 
     
     font-family: Poppins,sans-serif;
-    font-size: 0.55rem ;
+    font-size: 0.9rem ;
     margin: 9%;
 
      
@@ -258,7 +256,7 @@ span {
     font-family:Belanosima, sans-serif ;
     color: var(--color-5);
     background: var(--color-2);
-    font-size: 1.25rem;
+    font-size: 1.70rem;
     padding: 1rem;
     margin-top: 2rem;
     margin-bottom: -0.5rem;
@@ -280,15 +278,17 @@ span {
     background-color: var(--color-3);
     border-radius: 2%;
     color: var(--color-5);
-    
+    font-size: 2rem;
+   
 }
 
 .last h3 { text-decoration: underline;
+    font-size: 1.5rem;
 
 }
 
 .last p {
-    font-size: 12px;
+    font-size: 13px;
     color: var(--color-4);
     font-weight: bold;
     background: whitesmoke;
@@ -309,7 +309,7 @@ span {
 
 .redes h4 {
     font-family: Belanosima,sans-serif;
-    font-size: 18px;
+    font-size: 25px;
 
     
 }
@@ -319,11 +319,11 @@ span {
 }
 
 .datos h4 {
-    font-size: 14px;
+    font-size: 25px;
 }
 .datos { 
     font-family: Belanosima,sans-serif;
-    font-size: 10px;
+    font-size: 13px;
     display: flex;
     flex-direction: column;
     justify-content: center;
