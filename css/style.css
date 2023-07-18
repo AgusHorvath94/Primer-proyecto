@@ -19,7 +19,7 @@
 
 body {
     width: 460px;
-    zoom: 0%;
+ 
 }
 
 
@@ -160,6 +160,10 @@ span {
 
 }
 
+#quienes img {
+    width: 40px;
+}
+
 
 
 #por {
@@ -291,7 +295,7 @@ span {
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 1rem;
+    gap: 1.5rem;
 
 
 }
@@ -327,7 +331,7 @@ span {
 
 .iconos{
     display: flex;
-    gap: 0.5rem;
+    gap: 1.5rem;
 }
 
 .contenedor-footer   {
