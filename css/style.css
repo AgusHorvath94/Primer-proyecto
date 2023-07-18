@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+:root {
+    --color-1: #fc7300;
+    --color-2: #1f8a70;
+    --color-3 : #00425a;
+    --color-4 : #181823;
+    --color-5 : #eff5f5;
+    
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 320px;
+    
+}
+
+
+a { color: var(--color-5);
+    text-decoration: none;
+
+}
+
+
+
+
+
+nav {
+  
+    background-color: var(--color-3);
+    color: var(--color-5);
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    font-size: 5px;
+    padding: 15px;
+ 
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    
+    
+}
+
+
+
+.title {
+
+    width: 320px;
+    height: 160px;
+    background-image: url(../img/back-main.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Belanosima, sans-serif;
+    font-size: 0.65rem;
+    text-align: right;   
+    color: var(--color-3);
+ 
+   
+   
+}
+
+.title>h1 { 
+display: flex;
+justify-content: flex-end;
+position: relative;
+top: 8.50rem;
+right: 0.50rem;
+
+
+
+}
+
+h3 {  font-family: Poppins,sans-serif;
+    text-align: center;
+    color: var(--color-3);
+    margin-top: 1rem;
+
+}
+
+.who {
+    width: 100%;
+    height: 15%;
+    font-family: Poppins,sans-serif;
+    text-align: center;
+    font-size: 0.50rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+span {
+    color: var(--color-1);
+}
+
+
+.who>img { 
+    
+    width: 80%;
+    border-radius: 10%;
+
+}
+
+.who>p { font-family: Poppins,sans-serif;
+    font-size: 0.55rem ;
+    margin: 9%;
+
+}
+
+.why { 
+    height: 14%;
+    font-family: Poppins,sans-serif;
+    text-align: center;
+    font-size: 0.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+   
+}
+
+.why img {
+    width: 80%;
+    border-radius: 10%;
+
+}
+
+.why>p { 
+    
+    font-family: Poppins,sans-serif;
+    font-size: 0.55rem ;
+    margin: 9%;
+
+     
+}
+
+
+#quienes { display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+#quienes img{
+    width: 40px;
+}
+
+#por {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#por img {
+    width: 40px;
+}
+
+
+
+.img-pro {
+  
+    border-radius: 30%;
+    border: solid 1.5px var(--color-1);
+    
+}
+
+
+
+.proposal {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+   
+  
+}
+
+.contenedor-pro2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    
+}
+
+
+.contenedor-pro3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+  
+  
+}
+
+.contenedor-pro {
+    grid-row: 6 / 7;
+    grid-column: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+   margin-top: 7rem;
+   background-color: var(--color-2);
+   color: var(--color-5);
+   padding: 5%;
+    margin-top: 10px;
+}
+
+.contenedor-pro p {
+    font-family: Poppins, sans-serif;
+    font-size:10px ;
+    text-align: center;
+}
+
+#prop  {
+    text-align: center;
+    font-family:Belanosima, sans-serif ;
+    color: var(--color-5);
+    background: var(--color-2);
+    font-size: 1.25rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: -0.5rem;
+}
+
+.last {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 0.65rem;
+    gap: 1.5rem;
+    margin-top: 2rem;
+
+}
+
+
+.last h2 {
+    background-color: var(--color-3);
+    border-radius: 2%;
+    color: var(--color-5);
+    
+}
+
+.last h3 { text-decoration: underline;
+
+}
+
+.last p {
+    font-size: 12px;
+    color: var(--color-4);
+    font-weight: bold;
+    background: whitesmoke;
+}
+
+
+
+.redes { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.redes h4 {
+    font-family: Belanosima,sans-serif;
+    font-size: 17px;
+
+    
+}
+
+.datos h4 {
+    font-size: 14px;
+}
+.datos { 
+    font-family: Belanosima,sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 0.25rem;
+
+}
+
+.datos svg {
+    width: 10px;
+}
+
+.iconos{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.contenedor-footer   {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--color-3);
+    margin-top: 3rem;
+    color: var(--color-5);
+    padding: 2rem;
+    height: 6rem;
+    
+  
+
+}
+
+
+footer  {
+    text-align: center;
+    background-color: var(--color-1);
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 8px;
+    
+   
+}
+
+
+
+iframe {
+    visibility : hidden;
+    width: 0%;
+}
+
+
+
+@media (min-width: 320px) {
+    
+   body {
+        width: 768px;
+    
+    }
+
+
+
+nav ul {
+    justify-content: space-between;
+    height: 3rem;
+    font-size: 1rem;
+  padding: 1rem;
+
+}
+
+.title {   
+  
+    width: 768px ;
+    height: 400px;
+
+}
+
+.title h1 {
+     position: relative;
+    font-size: 2.5rem;
+    top: 21.5rem;
+
+}
+
+h3 {
+    
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+
+#prop {
+    font-size: 3rem;
+}
+
+.who>img {
+    width: 50%;
+    padding: 1rem;
+}
+
+.who {
+    display: flex;
+    flex-direction: row-reverse;    
+    margin-top: -2rem;
+  
+   
+    
+}
+
+.who p {
+    font-size: 0.70rem;
+    
+   
+}
+
+.why>img {
+    width: 50%;
+    padding: 1rem;
+}
+
+.why {
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+
+.why p {
+    font-size: 0.80rem;
+}
+
+#quienes {
+    font-size: 2.5rem;
+}
+
+#quienes img {
+    width: 70px;
+}
+
+#por {
+    font-size: 2.5rem;
+}
+
+#por img {
+    width: 70px;
+}
+.img-pro {
+    width: 225px;
+    height: 160px;
+}
+
+
+.contenedor-pro h2 {
+    font-size: 2rem;
+
+}
+
+.contenedor-pro p {
+    font-size: 1rem;
+}
+
+.last h2 {
+    font-size: 3rem;
+}
+
+.last p { font-size: 1rem;
+
+}
+
+.contenedor-footer {
+    justify-content: space-between;
+    height: 5rem;
+    padding: 3rem;
+   
+   
+    
+}
+
+.contenedor-footer h4 {
+    font-size: 1.5rem;
+}
+
+.datos {
+    gap: 1rem;
+}
+
+.datos p {
+    font-size: 1rem;
+}
+
+.datos svg {
+    width: 20px;
+}
+
+iframe {
+    visibility : hidden;
+  
+}
+
+.iconos svg {
+    width: 30px;
+}
+
+.redes {
+    gap: 1rem;
+}
+
+}
+
+
+@media (min-width: 768px) {
+
+    body {
+        width: 100%;
+    }
+
+    nav ul {
+       
+        height: 6rem;
+        font-size: 1.20rem;
+        
+    }
+
+    .title {   
+  
+        width: 100%;
+        height: 600px;
+    
+    }
+    
+    .title h1 {
+        position: relative;
+    font-size: 4rem;
+    top: 32rem;
+      
+    }
+
+
+
+    .who p  { 
+        font-size: 1rem ;
+    
+    }
+    
+ 
+    .who>img {
+        width: 40%;
+        
+    }
+
+    #quienes {
+        font-size: 3rem;
+        margin-top: 3rem;
+    }
+
+
+   #por {
+
+    font-size: 3rem;
+    margin-top: 2rem;
+   }
+
+    .why p {
+        font-size: 1.1rem;
+    }
+
+    .why>img {
+        width: 40%;
+    }
+
+    .img-pro {
+        width: 172.5px;
+        height: 100%;
+        border-radius:  2rem;
+       
+    }
+    
+    .contenedor-pro { 
+       
+        display: flex;
+        flex-direction: row;
+       
+      
+      
+    }
+
+    
+
+  #prop {
+    font-size: 3rem;
+  }
+
+
+
+  .contenedor-footer {
+    padding: 5rem;
+    
+  }
+
+  footer p { font-size: 1rem;
+
+  }
+
+  
+
+ .redes {
+    gap: 3rem;
+    
+ }
+
+
+
+
+  svg {
+    width: 30px;
+   
+  }
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+iframe {
+    visibility: visible;
+    border-radius: 1rem;
+    width: 250px;
+    height: 150px;
+    
+ 
+ 
+}
+
+
+
+
+}
+
+
