@@ -17,13 +17,15 @@
 
 }
 
-html, body {
+ body {
     width: 460px;
  
 
 }
 
-
+html {
+    width: 460px;
+}
 
 
 a { color: var(--color-5);
