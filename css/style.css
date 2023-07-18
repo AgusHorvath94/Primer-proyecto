@@ -17,10 +17,13 @@
 
 }
 
-body {
+html, body {
     width: 460px;
  
+
 }
+
+
 
 
 a { color: var(--color-5);
@@ -378,7 +381,7 @@ iframe {
 
 @media (min-width: 460px) {
     
-   body {
+   html, body {
         width: 768px;
     
     }
@@ -538,7 +541,7 @@ iframe {
 
 @media (min-width: 768px) {
 
-    body {
+    html, body {
         width: 100%;
     }
 
@@ -597,7 +600,7 @@ iframe {
     }
 
     .img-pro {
-        width: 153px;
+        width: 150px;
         height: 100%;
         border-radius:  2rem;
        
