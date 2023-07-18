@@ -18,7 +18,7 @@
 }
 
 body {
-    width: 320px;
+    width: 460px;
     
 }
 
@@ -48,6 +48,8 @@ nav>ul {
     align-items: center;
     gap: 1rem;
     list-style: none;
+    justify-content: space-between;
+    font-size: 10px;
     
     
 }
@@ -56,7 +58,7 @@ nav>ul {
 
 .title {
 
-    width: 320px;
+    width: 460px;
     height: 160px;
     background-image: url(../img/back-main.jpg);
     background-size: cover;
@@ -93,7 +95,7 @@ h3 {  font-family: Poppins,sans-serif;
     height: 15%;
     font-family: Poppins,sans-serif;
     text-align: center;
-    font-size: 0.50rem;
+    font-size: 1rem;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -124,7 +126,7 @@ span {
     height: 14%;
     font-family: Poppins,sans-serif;
     text-align: center;
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -251,10 +253,9 @@ span {
 .last {
     font-family: Poppins, sans-serif;
     text-align: center;
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
-    margin: 0.65rem;
+    margin: 0.80rem;
     gap: 1.5rem;
     margin-top: 2rem;
 
@@ -287,15 +288,20 @@ span {
     align-items: center;
     justify-content: center;
     text-align: center;
+    gap: 1rem;
 
 
 }
 
 .redes h4 {
     font-family: Belanosima,sans-serif;
-    font-size: 17px;
+    font-size: 18px;
 
     
+}
+
+.redes svg {
+    width: 22px;
 }
 
 .datos h4 {
@@ -357,7 +363,7 @@ iframe {
 
 
 
-@media (min-width: 320px) {
+@media (min-width: 460px) {
     
    body {
         width: 768px;
