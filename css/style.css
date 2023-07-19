@@ -86,8 +86,6 @@ nav>ul {
 }
 
 .title>h1 { 
-display: flex;
-justify-content: flex-end;
 position: relative;
 top: 10.5rem;
 right: 0.50rem;
