@@ -15,10 +15,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    zoom : 100%;
+
 }
+
 
  body {
     width: 460px;
+    zoom: 100%;
  
 
 }
