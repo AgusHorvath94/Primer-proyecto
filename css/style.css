@@ -43,7 +43,8 @@ nav {
     color: var(--color-5);
     font-family: Poppins, sans-serif;
     text-align: center;
-    padding: 15px;
+    padding: 30px;
+    
     
     
 
@@ -53,13 +54,14 @@ nav {
 nav>ul {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 15px;
     list-style: none;
     justify-content: space-between;
-    font-size: 15px;
+    font-size: 16px;
     
     
 }
+
 
 
 
