@@ -20,16 +20,14 @@
 }
 
 
- body {
+ html, body {
     width: 460px;
     
  
 
 }
 
-html {
-    width: 460px;
-}
+
 
 
 a { color: var(--color-5);
@@ -73,7 +71,7 @@ nav>ul {
 
     width: 460px;
     height: 200px;
-    background-image: url(../img/back-main.jpg);
+    background-image:;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Belanosima, sans-serif;
