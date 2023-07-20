@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Untref School</title>
+    <link rel="stylesheet" href="./css/style2.css">
+</head>
+<body>
+  <main>
+    <h1>Registro para vacante</h1>
+    <form action="https://formsubmit.co/agushorvath994@gmail.com" method="post">  
+      
+   
+        <section class="datos">
+       
+    <legend> <span> 1 </span> Datos principales</legend>
+      <label for="nombre">Nombre:</label>
+      <input type="text" placeholder="Ejemplo Martin Gomez" name=" nombre" id="nombre">
+      <label for="email">Email:</label>
+      <input type="email" placeholder="ddd@gmail.com" name="email" id="email">
+      <label for="contraseña">Contraseña:</label>
+      <input type="password" placeholder="123abcde" name="contraseña" id="contraseña"><br>
+
+ 
+    </section>
+
+  
+        <section class="interes">
+        <legend> <span> 2 </span> Datos de interes institucional:</legend><br>
+      
+      <label for="grado">Grado:</label><br>
+      <select name="grado" id="grado">
+        <option value="1"> 1° GRADO</option>
+        <option value="2">2° GRADO</option>
+        <option value="3">3° GRADO</option>
+        <option value="4">4° GRADO</option>
+        <option value="5">5° GRADO</option>
+        <option value="6">6° GRADO</option>
+      </select><br>
+
+      <label for="foto">Foto de perfil : </label><br>
+      <input type="file" name="foto" id="foto" accept="image/*" ><br>
+
+      <label for="fecha">Fecha de nacimiento : </label><br>
+      <input type="date" name="fecha" id="fecha">
+    </section><br>
+
+ 
+    <section class="inquietudes">
+      <label for="bio">Inquietudes : </label>
+      <textarea name="bio" id="bio" ></textarea>
+
+  <section>
+   <div>
+    <div class="escolaridad"><br>
+      <label for="Escolaridad">Escolaridad:</label>
+      <label for="ma"><input type="checkbox" name="Escolaridad" value="mañana" id="ma">
+     Turno mañana</label>
+      
+      <label for="ta"><input type="checkbox" name="Escolaridad" value="tarde" id="ta">
+   Turno tarde</label>
+  </div>
+</section>
+      
+
+
+ 
+</section> <br>
+
+ 
+        <section class="news">
+        <legend> <span> 3</span> Noticias</legend><br>
+ 
+
+      <label for="recibir">Recibir confirmacion de vacante por correo:</label><br>
+      <label for="si"><input type="radio" name="newsletter" id="si" value="Sí, me gustaria recibir la noticia por correo">
+     Sí, me gustaria recibir noticias</label> <br>
+     <label for="no"> <input type="radio" name="newsletter" id="no" value="No, prefiero recibir la noticia por telefono">
+    No enviarme noticias</label> 
+    <div class="button"> 
+    <button type="reset"> RESETEAR</button><br>
+    <button type="submit"> ENVIAR </button>
+    </div>
+    
+</section>
+
+
+    </form>
+   </main>
+    
+</html>
+    
+</body>
+</html>
