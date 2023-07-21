@@ -243,7 +243,6 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
   background-color: var(--color-3);
   color: var(--color-5);
   padding: 8rem;
@@ -359,8 +358,9 @@ iframe {
   .contenedor-footer {
     height: 160px;
     width: 100%;
-    padding: 6rem;
-    justify-content: space-between;
+    padding: 7rem;
+    gap: 4rem;
+ 
   }
 
   .contenedor-footer h4 {
@@ -454,17 +454,12 @@ iframe {
     margin-top: 3rem;
   }
 
-  .contenedor-footer {
-    padding: 6rem;
-  }
+
 
   footer p {
     font-size: 1rem;
   }
 
-  .iconos svg {
-    width: 50px;
-  }
 
   .iconos {
     display: flex;
