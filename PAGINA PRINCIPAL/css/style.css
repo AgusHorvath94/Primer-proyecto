@@ -19,6 +19,7 @@ body {
     width: 100%;
 }
 
+/*...STYLE DEL NAV ...*/
 
 a {
   color: var(--color-5);
@@ -39,14 +40,15 @@ nav > ul {
   flex-wrap: wrap;
   align-items: center;
   justify-content:center;
-  gap: 1rem;
+  gap: 3rem;
   margin-left: -1rem;
   list-style: none;
-  font-size: 1.25rem;
+  font-size: 0.9rem;
   font-weight: 1000;
 }
 
-
+ 
+/*...STYLE DEL MAIN ...*/
 
 
  h1 {
@@ -173,7 +175,7 @@ span {
 
 }
 
-
+/*...STYLE DE NEWS ...*/
 
 .last {
   font-family: Poppins, sans-serif;
@@ -204,6 +206,8 @@ span {
   font-weight: 1000;
   background: whitesmoke;
 }
+
+/*...STYLE DEL FOOTER ...*/
 
 .datos {
   font-family: Belanosima, sans-serif;
@@ -313,7 +317,7 @@ width: 100px;
   
 
   
-   
+ /*...RESPONSIVE ...*/  
    
     
   }
@@ -345,9 +349,5 @@ width: 100px;
 
     }
 
-    .carrousel-inner {
-      
-    }
-  }
 
   }
