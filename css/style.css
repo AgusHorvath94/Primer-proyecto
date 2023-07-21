@@ -40,28 +40,28 @@ nav > ul {
   align-items: center;
   align-content: stretch;
   justify-content: space-around;
-  gap: 1.5rem;
+  gap: 1rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 1000;
 }
 
-.title {
-  width: 460px;
-  height: 350px;
-  background-image: url(../img/back-main.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-family: Belanosima, sans-serif;
-  text-align: right;
-  color: var(--color-3);
+main {
+  margin: 2px;
 }
 
-.title > h1 {
+
+ h1 {
   text-align: center;
-  font-size: 4rem;
-  position: relative;
-  top: 13rem;
+  font-family: Belanosima, sans-serif;
+  font-size: 3rem;
+  color : var(--color-3);
+  position : relative;
+  top: 1rem;
+  margin-bottom: 2rem;
+
+
+
 }
 
 h3 {
@@ -95,7 +95,7 @@ span {
 
 #text-main {
   font-family: Poppins, sans-serif;
-  font-size: 28px;
+  font-size: 1rem;
   margin: 5%;
   font-weight: 1000;
 }
@@ -116,7 +116,7 @@ span {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 3px;
   font-size: 38px;
 }
 
@@ -140,7 +140,16 @@ span {
 .img-pro {
   border-radius: 30%;
   border: solid 1.5px var(--color-1);
-  width: 70%;
+  width: 60%;
+}
+
+#prop {
+  font-size: 2rem;
+  font-family: Belanosima, sans-serif;
+  text-align: center;
+  background-color: var(--color-2);
+  color: var(--color-5);
+  padding: 1rem;
 }
 
 .proposal {
@@ -159,24 +168,14 @@ span {
   color: var(--color-5);
   padding: 1rem;
   font-family: Poppins, sans-serif;
-  font-size: 30px;
-  font-weight: 600;
   text-align: center;
   font-family: Poppins, sans-serif;
-  font-size: 30px;
-  font-weight: 600;
-  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 800;
+
 }
 
-#prop {
-  text-align: center;
-  font-family: Belanosima, sans-serif;
-  color: var(--color-5);
-  background: var(--color-2);
-  font-size: 3rem;
-  font-weight: 1000;
-  padding: 1rem;
-}
+
 
 .last {
   font-family: Poppins, sans-serif;
@@ -185,23 +184,24 @@ span {
   flex-direction: column;
   margin: 0.8rem;
   gap: 1.5rem;
-  margin-top: 2rem;
+ 
 }
 
 .last h2 {
   background-color: var(--color-3);
   border-radius: 2%;
   color: var(--color-5);
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .last h3 {
   text-decoration: underline;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
 .last p {
-  font-size: 28px;
+  font-size: 1.15rem;
   color: var(--color-4);
   font-weight: 1000;
   background: whitesmoke;
@@ -209,7 +209,7 @@ span {
 
 .datos {
   font-family: Belanosima, sans-serif;
-  font-size: 26px;
+  font-size: 1.25rem;
   color: var(--color-5);
   display: flex;
   flex-direction: column;
@@ -237,14 +237,14 @@ footer {
   align-items: center;
   justify-content: space-between;
   padding: 2rem;
-  gap: 2rem;
+  gap: 3rem;
   
 }
 
 .iframe {
     visibility: visible;
     border-radius: 1rem;
-    width: 250px;
+    width: 150px;
     height: 150px;
 }
 
