@@ -38,42 +38,39 @@ a { color: var(--color-5);
 
 
 
+header {
+    width: 460px;
+}
 
 nav {
     width: 460px;
-    height: 250px;
+    height: 300px;
     background-color: var(--color-3);
-    color: var(--color-5);
-    font-family: Poppins, sans-serif;
-    text-align: center;
-    padding: 1rem;
-    
-    
-    
-    
-
  
+
 }
 
-nav>ul {
+nav ul {
+    list-style: none;
+    color: var(--color-5);
+    font-family: Poppins, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
-    list-style: none;
-    justify-content: space-between;
-    font-size: 20px;
-
+    font-size: 24px;
+    padding-top: 1rem;
+    font-weight: 1000;
+    
+  
 }
-
-
-
 
 .title {
 
     width: 460px;
     height: 300px;
-    background-image: url(../img/back-main.jpg);
+    background-image: url(../img/back-main1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Belanosima, sans-serif;
@@ -86,10 +83,11 @@ nav>ul {
 }
 
 .title>h1 { 
-text-align: center;
+text-align: left;
 position: relative;
-top: 12rem;
-font-size: 60px;
+top: 14rem;
+left: 1rem;
+font-size: 55px;
 
 
 }
@@ -104,7 +102,6 @@ h3 {  font-family: Poppins,sans-serif;
 
 .who {
     width: 100%;
-    height: 15%;
     font-family: Poppins,sans-serif;
     text-align: center;
     font-weight: bold;
@@ -128,7 +125,7 @@ span {
 }
 
 .who>p { font-family: Poppins,sans-serif;
-    font-size: 22px ;
+    font-size: 25px ;
     font-weight:900;
     margin: 9%;
 
@@ -156,7 +153,7 @@ span {
 .why>p { 
     
     font-family: Poppins,sans-serif;
-    font-size: 22px ;
+    font-size: 25px ;
     font-weight: 900;
     margin: 9%;
 
