@@ -38,57 +38,56 @@ a { color: var(--color-5);
 
 
 
-header {
-    width: 460px;
-}
 
 nav {
-    width: 460px;
-    height: 300px;
+  
     background-color: var(--color-3);
-    padding-top: 2rem;
- 
-
-}
-
-nav ul {
-    list-style: none;
     color: var(--color-5);
     font-family: Poppins, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    font-size: 24px;
-    padding-top: 1rem;
-    font-weight: 1000;
+    text-align: center;
+    padding: 30px;
     
-  
+    
+    
+
+ 
 }
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 11.5px;
+    
+    
+}
+
+
+
 
 .title {
 
     width: 460px;
-    height: 300px;
-    background-image: url(../img/back-main1.jpg);
+    height: 350px;
+    background-image: url(../img/back-main.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Belanosima, sans-serif;
-    font-size: 1rem;
     text-align: right;   
     color: var(--color-3);
- 
+
    
    
 }
 
 .title>h1 { 
-text-align: left;
+text-align: center;
 position: relative;
-top: 14rem;
-left: 1rem;
-font-size: 55px;
+top: 15rem;
+font-size: 60px;
+
 
 
 }
@@ -103,6 +102,7 @@ h3 {  font-family: Poppins,sans-serif;
 
 .who {
     width: 100%;
+    height: 15%;
     font-family: Poppins,sans-serif;
     text-align: center;
     font-weight: bold;
@@ -120,13 +120,13 @@ span {
 
 .who>img { 
     
-    width: 90%;
+    width: 95%;
     border-radius: 10%;
 
 }
 
 .who>p { font-family: Poppins,sans-serif;
-    font-size: 25px ;
+    font-size: 22px ;
     font-weight:900;
     margin: 9%;
 
@@ -146,7 +146,7 @@ span {
 }
 
 .why img {
-    width: 90%;
+    width: 95%;
     border-radius: 10%;
 
 }
@@ -154,8 +154,7 @@ span {
 .why>p { 
     
     font-family: Poppins,sans-serif;
-    font-size: 25px ;
-    font-weight: 900;
+    font-size: 22px ;
     margin: 9%;
 
      
@@ -167,7 +166,7 @@ span {
     align-items: center;
     justify-content: center;
     gap: 5px;
-    font-size: 37px;
+    font-size: 30px;
 
 }
 
@@ -183,11 +182,11 @@ span {
     align-items: center;
     justify-content: center;
     gap: 5px;
-    font-size: 37px;
+    font-size: 30px;
 }
 
 #por img {
-    width: 60px;
+    width: 40px;
 }
 
 
@@ -253,7 +252,7 @@ span {
 
 .contenedor-pro p {
     font-family: Poppins, sans-serif;
-    font-size: 18px ;
+    font-size: 17px ;
     font-weight:550;
     text-align: center;
     
@@ -265,7 +264,7 @@ span {
     font-family:Belanosima, sans-serif ;
     color: var(--color-5);
     background: var(--color-2);
-    font-size: 40px;
+    font-size: 1.70rem;
     padding: 1rem;
     margin-top: 2rem;
     margin-bottom: -0.5rem;
@@ -297,7 +296,7 @@ span {
 }
 
 .last p {
-    font-size: 20px;
+    font-size: 16px;
     color: var(--color-4);
     font-weight: bold;
     background: whitesmoke;
@@ -318,58 +317,54 @@ span {
 
 .redes h4 {
     font-family: Belanosima,sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 
     
 }
 
 .redes svg {
-    width: 50px;
+    width: 22px;
 }
 
 .datos h4 {
-    font-size: 30px;
+    font-size: 25px;
 }
 .datos { 
     font-family: Belanosima,sans-serif;
-    font-size: 25px;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
-   justify-content: center;
+    justify-content: center;
     text-align: left;
-    gap:2rem;
+    gap: 0.25rem;
 
 }
 
 .datos svg {
-    width: 20px;
+    width: 10px;
 }
 
-
+.iconos{
+    display: flex;
+    gap: 1.5rem;
+}
 
 footer {
     width: 460px;
-    height: 100px;
-   display: flex;
-   flex-direction: column;
-
-   
- 
+    height: 100%;
 }
 
 .contenedor-footer   {
-    
-
+    height: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    color: var(--color-5);
-    background-color: var(--color-3);
-    padding: 1rem;
     gap: 2rem;
-  
- 
+    background-color: var(--color-3);
+    color: var(--color-5);
+    padding: 5rem;
+    height: 6rem;
     
   
 
@@ -383,13 +378,11 @@ footer {
 iframe {
     visibility : hidden;
     width: 0%;
-    height: 0%;
 }
 
 #ubi {
     visibility: hidden;
     width: 0%;
-    height: 0%;
 }
   
 
