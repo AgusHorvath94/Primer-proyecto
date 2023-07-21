@@ -245,8 +245,8 @@ footer {
 
 iframe {
   visibility: hidden;
-  height: 25%;
   width: 0%;
+  height: 10%;
 }
 
 @media (min-width: 460px) {
