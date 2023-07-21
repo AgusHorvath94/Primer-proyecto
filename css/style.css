@@ -223,9 +223,7 @@ span {
   font-size: 35px;
 }
 
-.datos svg {
-  width: 50px;
-}
+
 
 footer {
   background-color: var(--color-3);
@@ -237,7 +235,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   padding: 3rem;
-  gap: 5rem;
+  gap: 3rem;
   
 }
 
