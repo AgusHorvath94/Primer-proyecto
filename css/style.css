@@ -216,9 +216,6 @@ span {
   background: whitesmoke;
 }
 
-
-
-
 .datos {
   font-family: Belanosima, sans-serif;
   font-size: 16px;
@@ -237,7 +234,6 @@ span {
   width: 10px;
 }
 
-
 footer {
   width: 460px;
 }
@@ -254,22 +250,17 @@ footer {
   height: 6rem;
 }
 
-
-
 .iconos {
-    
 }
-
 
 iframe {
   visibility: hidden;
-  width: 0%;
+  width: 25%;
+  height: 0%;
 }
 
 #ubi {
   visibility: hidden;
- 
-
 }
 
 @media (min-width: 460px) {
@@ -327,7 +318,6 @@ iframe {
     flex-direction: row;
   }
 
-
   #quienes {
     font-size: 2.5rem;
   }
@@ -372,7 +362,6 @@ iframe {
     width: 100%;
     padding: 7rem;
     justify-content: space-between;
-    
   }
 
   .contenedor-footer h4 {
@@ -403,12 +392,7 @@ iframe {
 
   .iconos svg {
     width: 40px;
-  
   }
-
-
-
-
 }
 
 @media (min-width: 768px) {
@@ -480,14 +464,10 @@ iframe {
     font-size: 1rem;
   }
 
-
-
-   
   .iconos {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-   
   }
 
   iframe {
@@ -495,7 +475,6 @@ iframe {
     border-radius: 1rem;
     width: 250px;
     height: 150px;
-
   }
 
   #ubi {
