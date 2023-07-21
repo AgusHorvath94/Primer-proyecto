@@ -46,9 +46,7 @@ nav > ul {
   font-weight: 1000;
 }
 
-main {
-  margin: 2px;
-}
+
 
 
  h1 {
@@ -137,7 +135,7 @@ span {
   width: 60px;
 }
 
-.img-pro {
+#img-pro {
   border-radius: 30%;
   border: solid 1.5px var(--color-1);
   width: 60%;
@@ -241,8 +239,101 @@ footer {
 
 .iframe {
     visibility: visible;
-    border-radius: 1rem;
-    width: 150px;
+    width: 170px;
     height: 150px;
 }
 
+@media (min-width: 460px) {
+  
+  nav ul {
+
+    justify-content: space-between;
+   
+
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  .who {
+    flex-direction: row;
+   
+  }
+
+#text-main {
+  font-size: 11px;
+}
+
+  #img-main {
+    width: 45%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .why{
+    flex-direction: row;
+    flex-direction: row-reverse;
+    margin-bottom: 3rem;
+    
+  }
+
+  .contenedor-pro {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+ 
+  #img-pro {
+width: 100px;
+
+  }
+
+  .contenedor-footer {
+    flex-direction: row;
+    padding: 2rem;
+  
+
+  }
+.iconos {
+
+  flex-direction: column;
+}
+
+#iframe {
+  visibility: hidden;
+  width: 0%;
+}
+
+#redes {
+  width: 30px;
+  
+}
+  
+
+  
+   
+   
+    
+  }
+
+  @media (min-width: 768px) {
+    #text-main {
+      font-size: 1rem;
+    }
+
+    #img-pro {
+      width: 150px;
+    }
+
+    #iframe {
+
+      visibility: visible;
+      width: 300px;
+      margin-left: 4rem;
+
+    }
+  }
+
+  }
