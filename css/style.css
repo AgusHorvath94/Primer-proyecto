@@ -18,7 +18,7 @@
 html,
 body {
   width: 460px;
-  font-size: 80%;
+
 }
 
 a {
@@ -43,7 +43,7 @@ nav > ul {
   justify-content: space-around;
   gap: 1.5rem;
   list-style: none;
-  font-size: 2.5em;
+  font-size: 2rem;
   font-weight: 1000;
 }
 
@@ -60,16 +60,16 @@ nav > ul {
 
 .title > h1 {
   text-align: center;
-  font-size: 6em;
+  font-size: 4rem;
   position: relative;
-  top: 20rem;
+  top: 13rem;
 }
 
 h3 {
   font-family: Poppins, sans-serif;
   text-align: center;
   color: var(--color-3);
-  margin-top: 2em;
+  margin-top: 2rem;
 }
 
 .who {
@@ -118,7 +118,7 @@ span {
   align-items: center;
   justify-content: center;
   gap: 5px;
-  font-size: 3.5em;
+  font-size: 38px;
 }
 
 #quienes img {
@@ -131,7 +131,7 @@ span {
   align-items: center;
   justify-content: center;
   gap: 5px;
-  font-size: 3.5em;
+  font-size: 35px;
 }
 
 #por img {
@@ -165,6 +165,7 @@ span {
   text-align: center;
   font-family: Poppins, sans-serif;
   font-size: 30px;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -184,24 +185,24 @@ span {
   display: flex;
   flex-direction: column;
   margin: 0.8rem;
-
- 
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 .last h2 {
   background-color: var(--color-3);
   border-radius: 2%;
   color: var(--color-5);
-  font-size: 5em;
+  font-size: 4rem;
 }
 
 .last h3 {
   text-decoration: underline;
-  font-size: 4em;
+  font-size: 3rem;
 }
 
 .last p {
-  font-size: 2.5em;
+  font-size: 28px;
   color: var(--color-4);
   font-weight: 1000;
   background: whitesmoke;
@@ -209,7 +210,7 @@ span {
 
 .datos {
   font-family: Belanosima, sans-serif;
-  font-size: 2em;
+  font-size: 26px;
   color: var(--color-5);
   display: flex;
   flex-direction: column;
@@ -231,7 +232,6 @@ footer {
   width: 460px;
   height: auto;
   background-color: var(--color-3);
- 
 }
 
 .contenedor-footer {
@@ -250,7 +250,7 @@ iframe {
   height: 10%;
 }
 
-@media screen and (min-width: 460px) {
+@media (min-width: 460px) {
   html,
   body {
     width: 768px;
@@ -302,7 +302,7 @@ iframe {
   }
 
   #text-main {
-    font-size: 1.5em;
+    font-size: 0.85rem;
   }
 
   .why {
@@ -396,7 +396,7 @@ iframe {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   html,
   body {
     width: 100%;
