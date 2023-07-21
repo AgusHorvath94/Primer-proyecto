@@ -36,14 +36,14 @@ nav {
 nav > ul {
   display: flex;
   flex-direction: row;
-  flex-wrap:wrap ;
+  flex-wrap: wrap;
   align-items: center;
   align-content: stretch;
   justify-content: space-around;
   gap: 1.5rem;
   list-style: none;
-  font-size: 25px;
-  font-weight: 1000 ;
+  font-size: 30px;
+  font-weight: 1000;
 }
 
 .title {
@@ -95,7 +95,7 @@ span {
 
 #text-main {
   font-family: Poppins, sans-serif;
-  font-size: 22px;
+  font-size: 28px;
   margin: 9%;
   font-weight: 1000;
 }
@@ -117,7 +117,7 @@ span {
   align-items: center;
   justify-content: center;
   gap: 5px;
-  font-size: 30px;
+  font-size: 38px;
 }
 
 #quienes img {
@@ -130,7 +130,7 @@ span {
   align-items: center;
   justify-content: center;
   gap: 5px;
-  font-size: 30px;
+  font-size: 38px;
 }
 
 #por img {
@@ -168,10 +168,6 @@ span {
   text-align: center;
 }
 
-
-
-
-
 #prop {
   text-align: center;
   font-family: Belanosima, sans-serif;
@@ -196,16 +192,16 @@ span {
   background-color: var(--color-3);
   border-radius: 2%;
   color: var(--color-5);
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .last h3 {
   text-decoration: underline;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .last p {
-  font-size: 20px;
+  font-size: 28px;
   color: var(--color-4);
   font-weight: 1000;
   background: whitesmoke;
@@ -221,7 +217,6 @@ span {
   justify-content: center;
   text-align: left;
   gap: 1rem;
-
 }
 
 .datos h4 {
@@ -246,17 +241,13 @@ footer {
   height: 300px;
   padding: 2rem;
   gap: 15px;
-  
 }
-
 
 iframe {
   visibility: hidden;
   height: 0%;
   width: 0%;
 }
-
-
 
 @media (min-width: 460px) {
   html,
@@ -295,13 +286,8 @@ iframe {
   }
 
   .img-pro {
-    width: 70%
-
+    width: 70%;
   }
-
-
-
-  
 
   #img-main {
     width: 50%;
@@ -343,11 +329,9 @@ iframe {
     height: 100%;
   }
 
-
   .contenedor-pro {
     flex-direction: row;
     gap: 5rem;
-    
   }
   .contenedor-pro h2 {
     font-size: 2rem;
@@ -374,7 +358,6 @@ iframe {
     width: 100%;
     padding: 7rem;
     gap: 3rem;
- 
   }
 
   .contenedor-footer h4 {
@@ -402,10 +385,7 @@ iframe {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-   
   }
-
-
 }
 
 @media (min-width: 768px) {
@@ -449,7 +429,7 @@ iframe {
 
   #por {
     font-size: 3rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
   .img-pro {
@@ -457,8 +437,6 @@ iframe {
     height: 100%;
     border-radius: 2rem;
   }
-
-
 
   #prop {
     font-size: 3rem;
@@ -471,21 +449,18 @@ iframe {
     gap: 10rem;
   }
 
-
   footer p {
     font-size: 1rem;
   }
 
- .contenedor-footer {
- justify-content: space-around;
-}
-
+  .contenedor-footer {
+    justify-content: space-around;
+  }
 
   .iconos {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-
   }
 
   iframe {
@@ -494,6 +469,4 @@ iframe {
     width: 250px;
     height: 150px;
   }
-
-
 }
