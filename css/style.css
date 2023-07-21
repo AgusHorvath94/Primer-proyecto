@@ -227,9 +227,7 @@ span {
   font-size: 25px;
 }
 
-.redes svg {
-  width: 30px;
-}
+
 
 .datos {
   font-family: Belanosima, sans-serif;
@@ -238,7 +236,7 @@ span {
   flex-direction: column;
   justify-content: center;
   text-align: left;
-  gap: 0.25rem;
+  gap: 1rem;
 }
 
 .datos h4 {
@@ -249,10 +247,6 @@ span {
   width: 10px;
 }
 
-.iconos {
-  display: flex;
-  gap: 1.5rem;
-}
 
 footer {
   width: 460px;
@@ -263,11 +257,24 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 2.5rem;
+  gap: 3rem;
   background-color: var(--color-3);
   color: var(--color-5);
-  padding: 7rem;
+  padding: 8rem;
   height: 6rem;
+}
+
+
+
+.iconos svg {
+    width: 40px;
+  }
+
+.iconos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   
 }
 
 iframe {
@@ -277,6 +284,8 @@ iframe {
 
 #ubi {
   visibility: hidden;
+  width: 0%;
+
 }
 
 @media (min-width: 460px) {
@@ -334,9 +343,6 @@ iframe {
     flex-direction: row;
   }
 
-  .why p {
-    font-size: 0.8rem;
-  }
 
   #quienes {
     font-size: 2.5rem;
@@ -378,11 +384,11 @@ iframe {
     width: 100%;
   }
   .contenedor-footer {
-    justify-content: space-between;
     height: 160px;
     width: 100%;
-    margin-top: 2rem;
     padding: 7rem;
+    justify-content: space-between;
+    
   }
 
   .contenedor-footer h4 {
@@ -390,7 +396,7 @@ iframe {
   }
 
   .datos {
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .datos p {
@@ -398,7 +404,7 @@ iframe {
   }
 
   .datos svg {
-    width: 20px;
+    width: 40px;
   }
 
   iframe {
@@ -406,13 +412,19 @@ iframe {
     width: 0%;
   }
 
-  .iconos svg {
-    width: 30px;
+  .iconos {
+    display: flex;
+    flex-direction: row;
   }
 
-  .redes {
-    gap: 1rem;
+  .iconos svg {
+    width: 40px;
+  
   }
+
+
+
+
 }
 
 @media (min-width: 768px) {
@@ -484,18 +496,14 @@ iframe {
     font-size: 1rem;
   }
 
-  .redes {
-    gap: 3rem;
-  }
 
-  svg {
-    width: 30px;
-  }
+
 
   .iconos {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+    margin-left: 2rem;
   }
 
   iframe {
@@ -503,6 +511,7 @@ iframe {
     border-radius: 1rem;
     width: 250px;
     height: 130px;
+
   }
 
   #ubi {
