@@ -319,6 +319,16 @@ width: 100px;
   }
 
   @media (min-width: 768px) {
+    
+    #quienes {
+      font-size: 4rem;
+    }
+
+    #por{
+      font-size: 4rem;
+      
+    }
+    
     #text-main {
       font-size: 1rem;
     }
@@ -333,6 +343,10 @@ width: 100px;
       width: 300px;
       margin-left: 4rem;
 
+    }
+
+    .carrousel-inner {
+      
     }
   }
 
