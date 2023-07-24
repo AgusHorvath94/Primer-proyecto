@@ -228,9 +228,10 @@ footer {
   height: 150px;
 }
 
-  /*...RESPONSIVE ...*/dd .
+  /*...RESPONSIVE ...*/
 
 @media (min-width: 460px) {
+  
   .navbar ul {
     gap: 1rem;
   }
@@ -287,13 +288,19 @@ footer {
     width: 30px;
   }
 
-
 }
 
-@media (min-width: 768px) {
+
+
+ @media (min-width: 768px) {
+  
   .navbar ul {
     gap: 4rem;
     padding: 20px;
+  }
+
+  h1 {
+    font-size: 6rem;
   }
 
   #quienes {
@@ -321,4 +328,5 @@ footer {
     width: 300px;
     margin-left: 4rem;
   }
+
 }
