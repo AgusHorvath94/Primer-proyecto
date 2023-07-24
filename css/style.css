@@ -228,6 +228,8 @@ footer {
   height: 150px;
 }
 
+  /*...RESPONSIVE ...*/dd .
+
 @media (min-width: 460px) {
   .navbar ul {
     gap: 1rem;
@@ -285,7 +287,7 @@ footer {
     width: 30px;
   }
 
-  /*...RESPONSIVE ...*/
+
 }
 
 @media (min-width: 768px) {
