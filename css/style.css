@@ -40,16 +40,10 @@ nav {
 }
 
 #logo {
-  width: 40%;
   border-radius: 50%;
 }
 
-.container a {
-  font-family: Belanosima, sans-serif;
-  font-weight: 500;
-  font-size: 1.3rem;
-  color: var(--color-5);
-}
+
 
 /*...STYLE DEL MAIN ...*/
 
@@ -244,6 +238,11 @@ footer {
 /*...RESPONSIVE ...*/
 
 @media (min-width: 460px) {
+
+#logo {
+  width: 110%;
+}
+
   .navbar ul {
     gap: 1rem;
   }
@@ -303,7 +302,7 @@ footer {
 
 @media (min-width: 768px) {
   #logo {
-    width: 60%;
+    width: 150%;
   }
 
   .navbar ul {
