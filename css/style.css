@@ -240,9 +240,6 @@ footer {
 
 @media (min-width: 460px) {
 
-#logo {
-  width: 110%;
-}
 
   .navbar ul {
     gap: 1rem;
